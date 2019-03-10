@@ -122,7 +122,7 @@ if (message.content.startsWith(adminprefix + 'setava')) {
   client.user.setAvatar(argresult);
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 client.on(`message`), message => {
-    if (message.content.startWith(".link") {
+    if (message.content.startWith("$link") {
 
         message.channel.createinvite({
 
