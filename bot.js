@@ -121,8 +121,27 @@ client.on('message', message => {
 if (message.content.startsWith(adminprefix + 'setava')) {
   client.user.setAvatar(argresult);
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
-}
-});
+client.on(`message`), message => {
+    if (message.content.startWith(".link") {
+
+        message.channel.createinvite({
+
+        thing: true,
+        maxUses: 10,
+        maxAge: 8600
+        )}.then(invite =>
+        message.auther.senMessage(invite.url)
+        )
+        message.channel.send("تم ارسال الرابط بنجاح :white_check_mark:")
+        message.auther.send(`**عدد استخدامات الرابط فقط 10 مرات**`)
+
+
+
+
+    }
+}};    
+
+
 
 
 client.login(process.env.BOT_TOKEN);
